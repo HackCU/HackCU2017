@@ -1,37 +1,16 @@
+# HackCU2017
 
-<br>
-<p align="center">
-  <img alt="HackCU V" src="https://github.com/HackCU/splash-page/blob/master/img/hackcu_black.png" width="200"/>
-</p>
-<br>
+Historical HackCU V (2017) Landing Page
 
-### Historical HackCU V (2017) Landing Page
 
-# Run project
+## To use the site:
+* `bower install` to add all dependencies
+* `php -S 127.0.0.1:8000` to run the website locally
+* Go to `localhost:8000`
 
-Needs: Ruby
-
-## Local 
-
-1. `git clone https://github.com/HackCU/HackCU2017 && cd HackCU2017`
-2. `gem install jekyll`
-3. `jekyll serve --watch`
-
-## Deploy
-
-1. Push changes to master
-2. There's no `2`
-
-Deployment is done automatically by [GitHub pages](https://pages.github.com/). You don't need to do anything else than pushing to master.
-
-# Development
-
-## To add new logo images for sponsors and partners
-
-1. Remove background
-1. Resize the image to `600 x 400 px` centering
-3. Archive the original `.png` file in the corresponding `originals/` folder
+## To add new logo images for sponsors and partners:
+1. After editing (removing background, adding whitespace, etc.), resize the image to `600 x 400 px`
+2. Archive the original `.png` file in the corresponding `originals/` folder
 
 ## Want to contribute?
-
-Please read our [Code of Conduct](.github/CODE_OF_CONDUCT.md), then follow these [guidelines](.github/CONTRIBUTING.md)
+Follow these [guidelines](.github/CONTRIBUTING.md)
